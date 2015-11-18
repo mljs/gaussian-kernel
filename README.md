@@ -13,13 +13,15 @@ The gaussian (radial basis function) kernel
 
 ## Usage
 
-### gaussianKernel(inputs, landmarks, options)
-
-Returns a kernel matrix
+### new GaussianKernel(options)
 
 __Options__
 
 * `sigma` - value for the sigma parameter (default: 1).
+
+### kernel.compute(x, y)
+
+Returns the dot product between `x` and `y` in feature space.
 
 ## License
 

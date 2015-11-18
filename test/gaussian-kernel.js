@@ -1,9 +1,10 @@
 'use strict';
 
-var gaussianKernel = require('..');
+const GaussianKernel = require('..');
 
 describe('gaussian kernel', function () {
-    it('one vector', function () {
-        Array.from(gaussianKernel([[1, 2]], [[1, 2]])).should.eql([[1]]);
+    it('default options', function () {
+        const kernel = new GaussianKernel();
+        kernel.compute([1, 2], [1, 2]).should.equal(1);
     });
 });

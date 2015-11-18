@@ -18,7 +18,7 @@ function gaussianKernel(inputs, landmarks, options) {
     for (var i = 0; i < inputs.length; i++) {
         for (var j = 0; j < landmarks.length; j++) {
             var distance = squaredEuclidean(inputs[i], landmarks[j]);
-            kernel[i][j] = Math.exp(-distance/divisor);
+            kernel[i][j] = Math.exp(-distance / divisor);
         }
     }
 

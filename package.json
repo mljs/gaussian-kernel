@@ -1,5 +1,5 @@
 {
-  "name": "ml-gaussian-kernel",
+  "name": "ml-kernel-gaussian",
   "version": "2.0.0",
   "description": "The gaussian (radial basis function) kernel",
   "main": "gaussian-kernel.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mljs/gaussian-kernel.git"
+    "url": "git+https://github.com/mljs/kernel-gaussian.git"
   },
   "keywords": [
     "gaussian",
@@ -26,13 +26,13 @@
   "author": "Michaël Zasso",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mljs/gaussian-kernel/issues"
+    "url": "https://github.com/mljs/kernel-gaussian/issues"
   },
-  "homepage": "https://github.com/mljs/gaussian-kernel#readme",
+  "homepage": "https://github.com/mljs/kernel-gaussian#readme",
   "devDependencies": {
-    "mocha": "^2.3.4",
-    "mocha-better-spec-reporter": "^2.1.3",
-    "should": "^7.1.1"
+    "mocha": "^3.0.0",
+    "mocha-better-spec-reporter": "^3.0.2",
+    "should": "^10.0.0"
   },
   "dependencies": {
     "ml-euclidean-distance": "^1.0.0"
